@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Barbería</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/crud.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="imagenes/favicon.ico">
+</head>
+<body>
+    <header class="grid">
+        <h1>Solna Games</h1>
+        <nav class="navbar">
+            <a class="nav-link" href="index.html">Home</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Interacción con la API</h1>
+        <div id="data-output"></div>
+
+        <form id="create-form">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+            
+            <label for="genero">Genero:</label>
+            <input type="text" id="genero" name="genero" required><br><br>
+            
+            <label for="banner">Banner:</label>
+            <input type="image" id="banner" name="banner" required><br><br>
+            
+            <button type="submit">Crear Juego</button>
+        </form>
+        
+        <button id="get-data">Obtener Datos</button>
+
+    </main>
+    <footer>
+        <div class="link-footer">
+            <a class="redsoc" href="https://www.facebook.com/?locale=es_LA" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a class="redsoc" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p class="p-footer">Derechos reservados @2024 </p>
+    </footer>
+    
+    <script src="js/index.js"></script>
+    
+</body>
+</html>
