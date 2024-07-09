@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solna Games</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="css/turnos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="imagenes/favicon.ico">
+    <script src="https://kit.fontawesome.com/6e36fc5c8e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar_principal">
+            <ul class="ul_star">
+                <div class="logo_nav">
+                    <img src="/img/logo_trialsf.png" alt="">
+                </div>
+
+                <div>
+                    <h1>Solna Games</h1>
+                </div>
+
+                <div class="nav_items">
+                    <li>
+                        <a href="/Formulario/index_form.html">Log in</a>
+                    </li>
+                    <li>
+                        <a href="https://www.blizzard.com/es-es/company/contact" target="_blank">Contacto</a>
+                    </li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <form class="form" novalidate>
+                <fieldset class="info">
+                    <legend>Consultar Juegos</legend>
+                    <div class="form-control">
+                        <button for="consultar">Consultar</button>
+                        <input type="text" id="consultar" required name="consultar">
+                        <div class="error" id="error-consultar"></div>
+                    </div>
+                </fieldset>
+
+                <fieldset class="info">
+                    <legend>Cargar Juegos</legend>
+                    <div class="form-control">
+                        <label for="firstname">Nombre: </label>
+                        <input type="text" id="firstname" required name="firstname" placeholder="Nombre">
+                        <div class="error" id="error-firstname"></div>
+                    </div>
+                    <div class="form-control">
+                        <label for="genero">Genero: </label>
+                        <input type="text" id="genero" required name="genero" placeholder="Genero">
+                        <div class="error" id="error-genero"></div>
+                    </div>
+                    <div class="form-control">
+                        <label for="banner">Banner: </label>
+                        <input type="image" id="img" required name="img" placeholder="Link banner">
+                        <div class="error" id="error-banner"></div>
+                    </div>
+                </fieldset>
+
+                <fieldset class="info">
+                    <legend>Borrar Juegos</legend>
+                    <div class="form-control">
+                        <label for="firstname">Nombre: </label>
+                        <input type="text" id="firstname" required name="firstname" placeholder="Nombre">
+                        <div class="error" id="error-firstname"></div>
+                    </div>
+                </fieldset>
+    </main>
+
+    <footer class="pie_pagina">
+
+        <div class="grupo1">
+            <div class="box">
+
+                <figure>
+                    <img src="/img/logo_trialsf.png" alt="">
+                </figure>
+
+            </div>
+            <div class="box">
+                <h2>SOBRE NOSOTROS</h2>
+                <a href="#">Nuestra Vision</a>
+                <a href="#">Colaboradores destacados</a>
+                <a href="#">Ubicacion y contacto</a>
+            </div>
+            <div class="box">
+                <h2>SIGUENOS</h2>
+                <div class="red_social">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-x"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="grupo2">
+            <p>&copy; 2024, Grupo 3 - Todos los Derechos Reservados.</p>
+        </div>
+    </footer>
+
+
+    <script src="js/juegos.js"></script>
+</body>
+
+</html>
